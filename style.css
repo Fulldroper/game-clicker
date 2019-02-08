@@ -1,0 +1,137 @@
+@font-face {
+	font-family: BACKTO1982; /* Имя шрифта */
+	src: url(BACKTO1982.TTF); /* Путь к файлу со шрифтом */
+}@font-face {
+	font-family: 8bitlim; /* Имя шрифта */
+	src: url(8bitlim.ttf); /* Путь к файлу со шрифтом */
+}@font-face {
+	font-family: jupiterc; /* Имя шрифта */
+	src: url(jupiterc.ttf); /* Путь к файлу со шрифтом */
+}@font-face {
+	font-family: Bitmgothic; /* Имя шрифта */
+	src: url(Bitmgothic.ttf); /* Путь к файлу со шрифтом */
+}@font-face {
+	font-family: ka1; /* Имя шрифта */
+	src: url(ka1.ttf); /* Путь к файлу со шрифтом */
+}
+.main{
+	color:#839496;
+}
+.click{
+	background-color:red;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:10;
+	opacity: 0.2;
+	filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+.loadingPage{
+	background:#2a2c31;
+	font-size:35px;
+	font-color:#839496;
+	color:#839496;
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	z-index:100;
+	bottom:0;
+	text-align:center;
+}
+body{
+	background-image: url(bg.gif);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	height: 100vh;
+	overflow: hidden;
+}
+.counter{
+	font-family:jupiterc;
+	color:#b99e0b;
+	font-size: 30px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;     
+}
+.store{
+	position:absolute;
+	top:10px;
+	right:10px;
+	z-index:11;
+}
+.store p,.saves p,.boosts p{
+	border-radius:5px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+	margin-bottom:0px;
+	padding:2px;
+	background:#2a2c31;
+	font-size:14px;
+	font-color:#839496;
+	color:#839496;
+	text-align:center;
+}
+.block{
+	background:#2a2c31;
+	border-radius: 10px 10px 10px 10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	font-size:14px;
+	font-color:#839496;
+	color:#839496;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+.msg{
+	z-index:11;
+}
+.msg p{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none; 
+}
+.msg-title{
+	margin-top:-8px;
+	text-align:center;
+	font-size:30px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none; 
+}
+hr{
+	border:1px dotted #839496;
+	color:#474a4f;
+	border: 0.2;
+	width:100%;
+}
+.saves{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	z-index:11;
+}
+.boosts{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	z-index:11;
+}
+.loadingPage p{
+
+}
